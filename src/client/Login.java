@@ -115,7 +115,7 @@ public class Login extends JDialog {
 						JOptionPane.WARNING_MESSAGE);
 			}
 		});
-		lblNewLabel_3.setIcon(new ImageIcon("C:\\Users\\hui\\Desktop\\01.png"));
+		lblNewLabel_3.setIcon(new ImageIcon("img/login.png"));
 		panel.add(lblNewLabel_3);
 		{
 			JPanel buttonPane = new JPanel();
