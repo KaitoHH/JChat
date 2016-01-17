@@ -16,7 +16,9 @@ jDK 1.8.0_45
 
 ###Screenshot:
 - Client
+
 ![image](https://github.com/KaitoHH/JChat/blob/master/screenshot01.png)
 ![image](https://github.com/KaitoHH/JChat/blob/master/screenshot02.png)
 - Server
+
 ![image](https://github.com/KaitoHH/JChat/blob/master/screenshot03.png)
