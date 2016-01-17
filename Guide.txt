@@ -1,0 +1,20 @@
+使用说明Guide
+
+客户端
+双击即可打开，输入服务器地址后即可连接。
+
+服务端
+双击自动打开服务器，默认绑定端口2417，如果想自定义端口，请在同一目录下创建port.ini文件，里面包含一个数字，表示要绑定的端口。
+打开服务端后，可以在界面中看到相关的日志消息，日志也会自动保存到log/文件夹下,由于log在刚写项目的时候已经实现，目前log文件夹基本包括了所有编码以来的日志，可供查阅。
+
+在服务端界面的下方可以输入一部分指令直接操作服务端行为。一些指令有：
+createChannel name		创建一个name的聊天室
+deleteChannel name		删除一个name的聊天室(不可删除默认聊天室)
+
+[MSG] msg [clientname]	给名为clientname的用户发送一条消息，留空则给所有客户端发送消息
+其中[MSG]可以为admin,infoLow,infoMid,msgbox中的任何一个，分别有细微的差别
+
+remove	clientname		t掉名为clientname的用户
+
+
+Written By HuangHui 2016
